@@ -1,0 +1,20 @@
+{
+  "name": "request-multiple-url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test --verbose false",
+    "test-coverage": "jest test --coverage",
+    "format": "node_modules/.bin/prettier --write .",
+    "lint": "node_modules/.bin/eslint"
+  },
+  "keywords": [],
+  "author": "Larry Eliemenye",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2"
+  }
+}

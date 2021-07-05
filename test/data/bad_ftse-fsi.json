@@ -1,0 +1,21 @@
+{
+  "data": {
+    "items": [
+      {
+        "symbolInput": "FTSE:FSI",
+        "basic": {
+          "symbol": "FTSE:FSI",
+          "name": "FTSE 100 Index",
+          "exchange": "FTSE International",
+          "exhangeCode": "FSI",
+          "bridgeExchangeCode": "GBFT",
+          "currency": "GBP"
+        },
+        "quote": {
+          "lastPrice": 7259.31,
+          "openPrice": 7292.76,
+          "high": 7335.55,
+          "low": 7258.83,
+          "previousClosePrice": 7292.76,
+          "change1Day": -33.449999999999818,
+          "change1DayPercent": -0.45867408224046613,
