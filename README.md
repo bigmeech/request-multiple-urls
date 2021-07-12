@@ -11,7 +11,7 @@ None required, except for Jest for unit testing
 
 ## Usage
 ```js
-const request = require('./lib')
+const { requestMulti } = require('./lib')
 
 const options = {
     parse: <boolean>,
@@ -24,7 +24,7 @@ try {
         'http://www.source.com/b.json',
         'http://www.source.com/c.json'
     ]
-    const results = await request(urls, options);
+    const results = await requestMulti(urls, options);
 } catch(err) {
     // handle Error
     logger.error(err);
@@ -32,7 +32,7 @@ try {
 ```
 
 ## API
-#### `requireMulti`
+#### `requestMulti`
 takes a list of urls and an options object and returns an array of resolved promises
 
 ### `options`
